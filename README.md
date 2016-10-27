@@ -1,5 +1,25 @@
 # Python Address Book
 
+Overview
+========
+
+* Assignment version: 1.0
+
+* Language: Python
+
+* Type: Library
+
+
+Guidelines
+==========
+
+* To run the tests:
+```
+    python -m unittest test.test_person
+    python -m unittest test.test_group
+    python -m unittest test.test_address_book # here are the feature tests
+```
+
 Design-only questions
 =====================
 
