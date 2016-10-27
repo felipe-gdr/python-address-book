@@ -34,7 +34,7 @@ Public API
 
 *address_book*.**AddressBook**.addPerson(person)
 
-Add a *person* to the Address Book. If the person is a member of any group, those groups will be added to the Address Book as well
+>Add a *person* to the Address Book. If the person is a member of any group, those groups will be added to the Address Book as well
 
 ```python
         address_book = AddressBook()
@@ -45,7 +45,7 @@ Add a *person* to the Address Book. If the person is a member of any group, thos
 * Add a group to the address book.
 *address_book*.**AddressBook**.addGroup(group)
 
-Add a *group* to the Address Book. If the group has any members, those members will be added to the Address Book as well
+>Add a *group* to the Address Book. If the group has any members, those members will be added to the Address Book as well
 
 ```python
         address_book = AddressBook()
@@ -56,7 +56,7 @@ Add a *group* to the Address Book. If the group has any members, those members w
 * Given a group we want to easily find its members.
 *address_book*.**AddressBook**.getMembers(group, group_name)
 
-Returns a *list* containing the members of a certain group. The group can be passed as an object *group*, or just as its name *group_name*
+>Returns a *list* containing the members of a certain group. The group can be passed as an object *group*, or just as its name *group_name*
 
 ```python
         address_book = AddressBook()
@@ -68,7 +68,7 @@ Returns a *list* containing the members of a certain group. The group can be pas
 * Given a person we want to easily find the groups the person belongs to.
 *address_book*.**AddressBook**.getGroups(person, person_full_name)
 
-Returns a *list* containing the groups a person is a member of. The person can passed as an object *person*, or just as its *full_name*
+>Returns a *list* containing the groups a person is a member of. The person can passed as an object *person*, or just as its *full_name*
 
 ```python
         address_book = AddressBook()
@@ -80,7 +80,7 @@ Returns a *list* containing the groups a person is a member of. The person can p
 * Find person by name (can supply either first name, last name, or both).
 *address_book*.**AddressBook**.findPeopleByName(first_name, last_name)
 
-Finds people by first and/or last names. This function will return a *list* of matches ordered by last and first names
+>Finds people by first and/or last names. This function will return a *list* of matches ordered by last and first names
 
 ```python
         address_book = AddressBook()
@@ -96,7 +96,7 @@ Finds people by first and/or last names. This function will return a *list* of m
 * Find person by email address (can supply either the exact string or a prefix string, ie. both "alexander@company.com" and "alex" should work)
 *address_book*.**AddressBook**.findPeopleByEmail(email_search):
 
-Finds people by email address. This function will return a *list* of matches ordered by last and first names
+>Finds people by email address. This function will return a *list* of matches ordered by last and first names
 
 ```python
         address_book = AddressBook()
