@@ -37,7 +37,8 @@ class AddressBook:
 
     def getMembers(self, group=None, group_name=None):
         """ Returns a list containing the members of a certain
-        group """
+        group. The group can be passed as an object *group*, or
+        just as its name *group_name* """
         if (group == None and group_name == None):
             raise Exception('Either group or group_name is required')
 
